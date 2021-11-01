@@ -89,6 +89,61 @@
         color: var(--black-color);
         line-height: 26px;
     }
+    /* checklist */
+    
+    .main-content-recorder .check-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-content-recorder .check-list-left {
+        display: flex;
+        align-items: center;
+    }
+    
+    .main-content-recorder .check-list p,
+    .main-content-recorder .check-list-left p {
+        font-size: 20px;
+        padding-left: 20px;
+        color: var(--white-color);
+    }
+    
+    .main-content-recorder .full-width {
+        color: var(--white-color);
+    }
+    
+    .main-content-recorder .full-width h2 {
+        font-size: 38px;
+        font-weight: 800;
+        text-transform: capitalize;
+        line-height: 1.2em;
+        font-family: 'Rockwell-Bold';
+        color: #fff;
+        text-shadow: 1px 1px 0 black;
+        text-align: center;
+    }
+    
+    .main-content-recorder .full-width h2.habits {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .two-columns p.paragraph {
+        font-size: 22px;
+    }
+    
+    .full-width .paragraph {
+        font-size: 18px;
+        text-align: center;
+        padding: 2rem 1.6rem;
+        color: #fff;
+        /* background: rgba(0, 0, 0, .5); */
+        background: rgba(65, 105, 225, .5);
+        box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+        backdrop-filter: blur(20 px);
+        border-radius: 1rem;
+    }
     /* Text main large */
     
     .main-content-recorder .text-main h2 {

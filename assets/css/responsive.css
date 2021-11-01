@@ -53,6 +53,18 @@
 }
 
 
+/* ipad pro small */
+
+@media (min-width: 1024px) and (max-width: 1112px) {
+    #app-recorder .section-organized.organized-first .row {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
 /* tablet and mobile */
 
 @media (max-width: 1023px) {
