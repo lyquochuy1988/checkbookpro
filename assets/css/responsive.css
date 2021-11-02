@@ -1,3 +1,75 @@
+/* height box */
+
+@media (min-width: 1450px) and (max-width: 1592px) {
+    .height-box {
+        height: 300px;
+        min-height: 340px;
+    }
+    .height-box-2 {
+        height: 300px;
+        min-height: 700px;
+    }
+}
+
+@media (min-width: 1350px) and (max-width: 1449px) {
+    .full-width .height-box {
+        height: 300px;
+        min-height: 360px;
+    }
+    .height-box-2 {
+        height: 300px;
+        min-height: 730px;
+    }
+}
+
+@media (min-width: 1290px) and (max-width: 1349px) {
+    .full-width .height-box {
+        height: 300px;
+        min-height: 350px;
+    }
+    .height-box-2 {
+        height: 300px;
+        min-height: 760px;
+    }
+}
+
+@media (min-width: 1206px) and (max-width: 1289px) {
+    .full-width .height-box {
+        height: 300px;
+        min-height: 370px;
+    }
+    .height-box-2 {
+        height: 300px;
+        min-height: 780px;
+    }
+}
+
+@media (min-width: 1113px) and (max-width: 1205px) {
+    .full-width .height-box {
+        height: 300px;
+        min-height: 400px;
+    }
+    .height-box-2 {
+        height: 300px;
+        min-height: 830px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 1112px) {
+    .full-width .height-box {
+        height: auto;
+        min-height: auto;
+    }
+    .height-box-2 {
+        height: auto;
+        min-height: auto;
+    }
+    .mt-responsive {
+        margin-top: 50px;
+    }
+}
+
+
 /* Ipad pro */
 
 @media (min-width: 1024px) and (max-width: 1366px) {
@@ -9,6 +81,9 @@
         line-height: 48px;
         font-size: 12px;
         width: 90px;
+    }
+    #app-recorder .main-content-recorder {
+        padding: 50px 40px;
     }
     #app-recorder .section-organized.organized-first .row {
         display: flex;
@@ -74,6 +149,12 @@
         font-size: 12px;
         width: 90px;
     }
+    .main-content-recorder h1.checkbook-title {
+        font-size: 36px;
+    }
+    .main-content-recorder .checkbook-subtitle {
+        font-size: 24px;
+    }
     #app-recorder .section-organized.organized-first .row {
         display: flex;
         flex-direction: column-reverse;
@@ -102,7 +183,7 @@
         margin-bottom: 26px;
     }
     #app-recorder .main-content-recorder {
-        padding: 50px 40px;
+        padding: 50px 20px;
     }
     #app-recorder .main-quote .row {
         margin-bottom: -10px;
@@ -191,10 +272,10 @@
     .header-recorder ul li {
         padding-right: 14px;
     }
-    /* .header-recorder li a img {
+    .header-recorder li a img {
         display: block;
         width: 80px;
-    } */
+    }
     .header-recorder li a.ovvy-screen {
         font-size: 14px;
         letter-spacing: 1px;
@@ -203,7 +284,7 @@
         width: 100%;
     }
     #app-recorder .main-content-recorder {
-        padding: 40px 26px;
+        padding: 40px 20px;
     }
     #app-recorder .section-organized h2 {
         font-size: 26px;

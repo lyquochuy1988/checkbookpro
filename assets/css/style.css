@@ -114,7 +114,7 @@
     }
     
     .main-content-recorder .full-width h2 {
-        font-size: 38px;
+        font-size: 30px;
         font-weight: 800;
         text-transform: capitalize;
         line-height: 1.2em;
@@ -122,10 +122,34 @@
         color: var(--primary-color);
         text-shadow: 1px 1px 0 #d37e18;
         text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .main-content-recorder h1.checkbook-title {
+        font-size: 42px;
+        font-weight: 800;
+        text-transform: capitalize;
+        line-height: 1.2em;
+        font-family: 'Rockwell-Bold';
+        color: var(--primary-color);
+        text-shadow: 1px 1px 0 #d37e18;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .main-content-recorder .checkbook-subtitle {
+        margin-top: 10px;
+        font-size: 28px;
+        text-align: justify;
+        padding: 0 2rem;
+        /* color: #fff; */
+        color: var(-white-color);
+        text-shadow: 1px 1px 0 black;
+        /* background: rgba(0, 0, 0, .5); */
     }
     
     .full-width .bg-behind {
-        background: rgba(255, 0, 0, .4);
+        background: rgba(255, 0, 0, .5);
         box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
         /* backdrop-filter: blur(20px); */
         border-radius: 1rem;
@@ -133,16 +157,30 @@
     }
     
     .full-width .paragraph {
-        font-size: 18px;
-        text-align: center;
-        padding: 2rem 1.6rem;
-        color: #fff;
+        margin-top: 10px;
+        font-size: 22px;
+        text-align: justify;
+        padding: 0 2rem;
+        /* color: #fff; */
+        color: var(-white-color);
+        text-shadow: 1px 1px 0 black;
         /* background: rgba(0, 0, 0, .5); */
     }
     /* The Right Toolbar */
     
     .the-right-tool {
         margin-top: 50px;
+    }
+    /* two columns height */
+    
+    .height-box {
+        height: 200px;
+        min-height: 310px;
+    }
+    
+    .height-box-2 {
+        height: 300px;
+        min-height: 500px;
     }
     /* Text main large */
     
