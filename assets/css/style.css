@@ -10,8 +10,7 @@
         width: 100%;
         z-index: 2;
         padding: 10px 100px;
-        /* background-color: #ffc42f; */
-        background-color: var(--bg-color);
+        background-color: #ff0000;
     }
     
     .header-recorder .header__inner {
@@ -56,8 +55,9 @@
     }
     
     a.how-to-use {
-        background: linear-gradient(#f4586b, #ff0000);
-        color: #fff !important;
+        /* background: linear-gradient(#f4586b, #ff0000); */
+        background-color: var(--white-color);
+        color: #ff0000 !important;
         /* margin-left: 20px; */
         text-transform: none;
         padding: 0px 20px;
@@ -119,18 +119,17 @@
         text-transform: capitalize;
         line-height: 1.2em;
         font-family: 'Rockwell-Bold';
-        color: #fff;
-        text-shadow: 1px 1px 0 black;
+        color: var(--primary-color);
+        text-shadow: 1px 1px 0 #d37e18;
         text-align: center;
     }
     
-    .main-content-recorder .full-width h2.habits {
-        margin-top: 100px;
-        margin-bottom: 50px;
-    }
-    
-    .two-columns p.paragraph {
-        font-size: 22px;
+    .full-width .bg-behind {
+        background: rgba(255, 0, 0, .4);
+        box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+        /* backdrop-filter: blur(20px); */
+        border-radius: 1rem;
+        padding: 4px;
     }
     
     .full-width .paragraph {
@@ -139,10 +138,11 @@
         padding: 2rem 1.6rem;
         color: #fff;
         /* background: rgba(0, 0, 0, .5); */
-        background: rgba(65, 105, 225, .5);
-        box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
-        backdrop-filter: blur(20 px);
-        border-radius: 1rem;
+    }
+    /* The Right Toolbar */
+    
+    .the-right-tool {
+        margin-top: 50px;
     }
     /* Text main large */
     
@@ -151,7 +151,8 @@
     }
     
     .simples-screen {
-        margin-top: 70px;
+        margin-top: 30px;
+        margin-bottom: -30px;
     }
     /* Quote Section */
     
@@ -182,8 +183,8 @@
         line-height: 1.2em;
         font-family: 'Rockwell-Bold';
         margin: 0;
-        color: #fff;
-        text-shadow: 1px 1px 0 black;
+        color: var(--primary-color);
+        text-shadow: 1px 1px 0 #d37e18;
     }
     
     .main-content-recorder .section-organized p.paragraph {
@@ -192,6 +193,9 @@
         text-align: justify;
         font-size: 18px;
         color: #fff;
+        background: rgba(255, 0, 0, .4);
+        box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+        border-radius: 1rem;
         /* background: rgba(50, 108, 238, .4);
         box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
         border-radius: 1rem;

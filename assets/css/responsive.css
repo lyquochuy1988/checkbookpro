@@ -191,12 +191,12 @@
     .header-recorder ul li {
         padding-right: 14px;
     }
-    .header-recorder li a img {
+    /* .header-recorder li a img {
         display: block;
         width: 80px;
-    }
+    } */
     .header-recorder li a.ovvy-screen {
-        font-size: 7px;
+        font-size: 14px;
         letter-spacing: 1px;
     }
     #app-recorder iframe {
@@ -234,6 +234,9 @@
         padding: 10px 40px;
         margin-top: -60px;
     }
+    .main-content-recorder .full-width h2 {
+        font-size: 30px;
+    }
 }
 
 
@@ -250,6 +253,9 @@
 }
 
 @media (max-width: 500px) {
+    .main-content-recorder .full-width h2 {
+        font-size: 28px;
+    }
     #app-recorder .header {
         padding: 10px 8px;
     }
@@ -264,8 +270,8 @@
 
 @media (max-width: 350px) {
     .header-recorder li a img {
-        display: block;
-        width: 70px;
+        /* display: block;
+        width: 70px; */
     }
     .header-recorder ul li {
         padding-right: 10px;
