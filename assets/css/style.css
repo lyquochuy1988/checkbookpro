@@ -158,7 +158,8 @@
     
     .full-width .bg-behind {
         /* background: rgba(255, 0, 0, .5); */
-        background: rgba(0, 0, 0, .6);
+        /* background: rgba(0, 0, 0, .6); */
+        background: rgb(253 253 253 / 80%);
         box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
         /* backdrop-filter: blur(20px); */
         border-radius: 1rem;
@@ -171,7 +172,8 @@
         text-align: justify;
         padding: 0 2rem;
         /* color: #fff; */
-        color: var(-white-color);
+        /* color: var(-white-color); */
+        color: #000000ab;
         text-shadow: 1px 1px 0 black;
         /* background: rgba(0, 0, 0, .5); */
     }
@@ -191,7 +193,8 @@
     
     .main-content-recorder .check-bullets p {
         font-size: 22px;
-        color: var(-white-color);
+        /* color: var(-white-color); */
+        color: #000000ab;
         text-shadow: 1px 1px 0 black;
         padding-left: 14px;
     }
