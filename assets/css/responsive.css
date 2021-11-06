@@ -150,6 +150,10 @@
 /* tablet and mobile */
 
 @media (max-width: 1023px) {
+    .main-content-recorder .check-list ul li {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
     a.how-to-use {
         padding: 0px 12px;
         line-height: 44px;
@@ -258,6 +262,10 @@
 /* Mobile */
 
 @media (max-width: 739px) {
+    .main-content-recorder .check-list ul li {
+        font-size: 34px;
+        margin-bottom: 24px;
+    }
     a.how-to-use {
         padding: 0px 12px;
         line-height: 28px;
@@ -331,6 +339,10 @@
 /* Small Mobile */
 
 @media (max-width: 550px) {
+    #app-recorder iframe {
+        width: 100%;
+        height: auto;
+    }
     .main-content-recorder .check-list ul li {
         font-size: 24px;
         margin-bottom: 24px;
