@@ -1,9 +1,16 @@
 /* height box */
 
+@media (min-width: 1593px) and (max-width: 1700px) {
+    .height-box-2 {
+        height: 300px;
+        min-height: 600px;
+    }
+}
+
 @media (min-width: 1450px) and (max-width: 1592px) {
     .height-box {
         height: 300px;
-        min-height: 340px;
+        min-height: 370px;
     }
     .height-box-2 {
         height: 300px;
@@ -18,7 +25,7 @@
     }
     .height-box-2 {
         height: 300px;
-        min-height: 700px;
+        min-height: 680px;
     }
 }
 
@@ -29,7 +36,7 @@
     }
     .height-box-2 {
         height: 300px;
-        min-height: 720px;
+        min-height: 710px;
     }
 }
 
@@ -40,7 +47,7 @@
     }
     .height-box-2 {
         height: 300px;
-        min-height: 740px;
+        min-height: 720px;
     }
 }
 
@@ -51,7 +58,7 @@
     }
     .height-box-2 {
         height: 300px;
-        min-height: 760px;
+        min-height: 750px;
     }
 }
 
@@ -274,7 +281,7 @@
     }
     .header-recorder li a img {
         display: block;
-        width: 80px;
+        width: 72px;
     }
     .header-recorder li a.ovvy-screen {
         font-size: 14px;
@@ -324,6 +331,10 @@
 /* Small Mobile */
 
 @media (max-width: 550px) {
+    .main-content-recorder .check-list ul li {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
     #app-recorder .main-content-recorder {
         padding: 40px 20px;
     }
@@ -334,6 +345,10 @@
 }
 
 @media (max-width: 500px) {
+    .main-content-recorder .check-list ul li {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
     .main-content-recorder .full-width h2 {
         font-size: 28px;
     }
@@ -346,6 +361,12 @@
     #app-recorder .main-quote .edit-img {
         display: flex;
         justify-content: center;
+    }
+    .row .two-buttons ul {
+        flex-direction: column;
+    }
+    .row .two-buttons ul li:first-child {
+        margin-left: 10px;
     }
 }
 

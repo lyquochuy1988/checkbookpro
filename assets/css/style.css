@@ -90,6 +90,12 @@
         color: var(--black-color);
         line-height: 26px;
     }
+    /* discount code */
+    
+    p.text-center.discount-code {
+        font-size: 22px;
+        font-family: 'Rockwell', sans-serif;
+    }
     /* checklist */
     
     .main-content-recorder .check-list {
@@ -97,11 +103,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: #000000ab;
+        /* color: #000000ab; */
+    }
+    
+    .main-content-recorder .check-list ul {
+        padding-left: 0;
     }
     
     .main-content-recorder .check-list ul li {
-        font-size: 32px;
+        font-size: 34px;
         margin-bottom: 24px;
     }
     
@@ -172,11 +182,29 @@
         font-size: 22px;
         text-align: justify;
         padding: 0 2rem;
-        /* color: #fff; */
-        /* color: var(-white-color); */
-        color: #000000ab;
-        text-shadow: 1px 1px 0 black;
+        color: #000;
+        /* text-shadow: 1px 1px 0 black; */
         /* background: rgba(0, 0, 0, .5); */
+    }
+    /* two buttons */
+    
+    .row .two-buttons {
+        width: 100%;
+    }
+    
+    .row .two-buttons ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    
+    .row .two-buttons ul li {
+        margin-left: 10px;
+    }
+    
+    .row .two-buttons ul li:first-child {
+        margin-left: 0;
     }
     /* check bullets */
     
@@ -194,9 +222,8 @@
     
     .main-content-recorder .check-bullets p {
         font-size: 22px;
-        /* color: var(-white-color); */
-        color: #000000ab;
-        text-shadow: 1px 1px 0 black;
+        color: #000;
+        /* text-shadow: 1px 1px 0 black; */
         padding-left: 14px;
     }
     /* The Right Toolbar */
@@ -208,12 +235,12 @@
     
     .height-box {
         height: 200px;
-        min-height: 310px;
+        min-height: 326px;
     }
     
     .height-box-2 {
         height: 300px;
-        min-height: 500px;
+        min-height: 520px;
     }
     /* Text main large */
     
@@ -345,6 +372,18 @@
         font-size: 20px;
         font-family: 'Rockwell';
         color: rgb(12, 4, 4);
+    }
+    /* how to page */
+    
+    .bg-behind.video-youtube {
+        /* background: rgba(255, 0, 0, .5); */
+        /* background: rgba(0, 0, 0, .6); */
+        background: rgb(253 253 253 / 80%);
+        box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+        /* backdrop-filter: blur(20px); */
+        border-radius: 1rem;
+        padding: 6px;
+        display: inline-block;
     }
     
     footer.page-content p {
