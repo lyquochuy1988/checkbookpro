@@ -142,7 +142,7 @@
         color: var(--primary-color);
         text-shadow: 1px 1px 0 #d37e18;
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     
     .main-content-recorder h1.checkbook-title {
@@ -492,7 +492,7 @@
     /* title second */
     
     .title-second-color {
-        color: var(--second-color);
+        color: var(--gold-color);
         font-size: 70px;
     }
     /* video section */
@@ -519,4 +519,16 @@
         .section-settings {
             margin-top: -60px;
         }
+    }
+    /* person row */
+    
+    .row.row-person {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* img app center */
+    
+    .bg-behind .img-app {
+        text-align: center;
     }
