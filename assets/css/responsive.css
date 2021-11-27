@@ -164,6 +164,13 @@
         font-size: 12px;
         width: 90px;
     }
+    .header-recorder li a {
+        text-decoration: none;
+        color: var(--white-color);
+        font-size: 14px;
+        display: block;
+        margin: 10px 0;
+    }
     .main-content-recorder h1.checkbook-title {
         font-size: 36px;
     }
@@ -276,6 +283,13 @@
     }
     .bg-behind .img-app img {
         width: 100%;
+    }
+    .header-recorder li a {
+        text-decoration: none;
+        color: var(--white-color);
+        font-size: 12px;
+        display: block;
+        margin: 10px 0;
     }
 }
 
@@ -443,6 +457,13 @@
     }
     .title-second-color {
         font-size: 30px;
+    }
+    .header-recorder li a {
+        text-decoration: none;
+        color: var(--white-color);
+        font-size: 10px;
+        display: block;
+        margin: 10px 0;
     }
 }
 

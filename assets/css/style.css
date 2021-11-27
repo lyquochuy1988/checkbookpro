@@ -10,7 +10,8 @@
         width: 100%;
         z-index: 2;
         padding: 10px 100px;
-        background-color: #ff0000;
+        /* background-color: #ff0000; */
+        background-color: var(--new-main-color);
     }
     
     .header-recorder .header__inner {
@@ -30,6 +31,8 @@
     
     .header-recorder ul li {
         padding-right: 30px;
+        display: flex;
+        align-items: center;
     }
     
     .header-recorder ul li:last-child {
@@ -46,6 +49,14 @@
         font-size: 34px;
         font-weight: 600;
         letter-spacing: 2px;
+    }
+    
+    .header-recorder li a {
+        text-decoration: none;
+        color: var(--second-color);
+        font-size: 18px;
+        display: block;
+        margin: 10px 0;
     }
     /* How To Use Button */
     
@@ -95,6 +106,11 @@
     p.text-center.discount-code {
         font-size: 22px;
         font-family: 'Rockwell', sans-serif;
+        color: var(--black-color);
+    }
+    
+    p.text-center.discount-code a {
+        color: var(--black-color);
     }
     /* checklist */
     
@@ -139,8 +155,9 @@
         text-transform: capitalize;
         line-height: 1.2em;
         font-family: 'Rockwell-Bold';
-        color: var(--primary-color);
-        text-shadow: 1px 1px 0 #d37e18;
+        /* color: var(--primary-color); */
+        color: var(--black-color);
+        text-shadow: 1px 1px 0 #141212;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -255,6 +272,10 @@
     
     .main-content-recorder .text-main h2 {
         font-size: 64px;
+    }
+    
+    .main-content-recorder h2 .title-red-color {
+        color: var(--primary-color);
     }
     
     .simples-screen {
@@ -414,20 +435,20 @@
     }
     
     #app-recorder footer h3 {
-        color: #fff;
+        color: #000;
         font-size: 16px;
-        font-weight: 800;
+        font-weight: 700;
         text-transform: capitalize;
         line-height: 1.6em;
-        text-shadow: 1px 1px 0 black;
+        /* text-shadow: 1px 1px 0 black; */
     }
     
     #app-recorder footer p {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.9em;
-        /* color: #000; */
-        color: #fff;
+        color: #000;
+        /* color: #fff; */
         /* background: rgba(50, 108, 238, .4);
         box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
         border-radius: 1rem;
@@ -442,11 +463,11 @@
     }
     
     #app-recorder footer .link-bottom a {
-        color: #fff;
+        color: #000;
         text-align: left;
         line-height: 1.2em;
         text-decoration: none;
-        text-shadow: 1px 1px 0 black;
+        /* text-shadow: 1px 1px 0 black; */
     }
     
     #app-recorder footer {
@@ -499,7 +520,8 @@
     /* title second */
     
     .title-second-color {
-        color: var(--gold-color);
+        /* color: var(--gold-color); */
+        color: var(--primary-color);
         font-size: 70px;
     }
     /* video section */
