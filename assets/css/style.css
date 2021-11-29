@@ -30,13 +30,30 @@
     }
     
     .header-recorder ul li {
-        padding-right: 30px;
+        padding: 0 8px;
         display: flex;
         align-items: center;
+        position: relative;
     }
     
     .header-recorder ul li:last-child {
         padding-right: 0px;
+    }
+    
+    .header-recorder ul li::after {
+        display: block;
+        content: "";
+        height: 16px;
+        width: 2px;
+        border-left: 1px solid var(--second-color);
+        position: absolute;
+        right: -1px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .header-recorder ul li:last-child::after {
+        border-left: none;
     }
     
     .header-recorder li a img {
@@ -218,6 +235,12 @@
         width: 100%;
     }
     
+    .row .two-buttons a {
+        font-size: 22px;
+        color: var(--pink-color);
+        text-decoration: none;
+    }
+    
     .row .two-buttons ul {
         display: flex;
         justify-content: center;
@@ -286,6 +309,11 @@
         /* backdrop-filter: blur(20px); */
         border-radius: 1rem;
         padding: 4px;
+    }
+    /* Scan receipts  */
+    
+    .smile-man.text-center p.small-letter {
+        font-size: 16px;
     }
     /* Quote Section */
     
@@ -412,7 +440,7 @@
         box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
         /* backdrop-filter: blur(20px); */
         border-radius: 1rem;
-        padding: 6px;
+        padding: 20px 6px 10px 6px;
         display: inline-block;
         width: 100%;
     }
@@ -599,14 +627,15 @@
         top: 50%;
         width: auto;
         margin-top: -22px;
-        padding: 16px;
+        padding: 20px;
         color: white;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 24px;
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
-        background-color: rgba(0, 0, 0, 0.8);
+        /* background-color: rgba(0, 0, 0, 0.8); */
+        background-color: #007be3;
     }
     /* Position the "next button" to the right */
     
@@ -682,4 +711,67 @@
         to {
             opacity: 1
         }
+    }
+    /* video */
+    
+    .row.row-video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .video-morning,
+    .video-afternoon,
+    .video-night {
+        display: none;
+    }
+    
+    .video-morning.show,
+    .video-afternoon.show,
+    .video-night.show {
+        display: block;
+    }
+    
+    .video.morning {
+        position: relative;
+        background: url(../img/video_thumbnail_men.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    
+    .video video {
+        display: block;
+        width: 100%;
+        height: auto;
+        opacity: 0;
+    }
+    
+    .video--playing video {
+        opacity: 1;
+    }
+    
+    .video--playing .video__btn {
+        display: none;
+    }
+    
+    .video__btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 10vw;
+        transform: translate(-50%, -50%);
+        transition: margin .3s;
+    }
+    
+    .video__btn:hover {
+        margin-top: -10px;
+    }
+    
+    .video__btn img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main-content-recorder .full-width.text-left h2 {
+        text-align: left;
     }
