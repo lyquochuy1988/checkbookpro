@@ -229,6 +229,11 @@
         /* text-shadow: 1px 1px 0 black; */
         /* background: rgba(0, 0, 0, .5); */
     }
+    
+    .full-width.text-left p.heading-paragraph {
+        font-size: 22px;
+        color: var(--black-color);
+    }
     /* two buttons */
     
     .row .two-buttons {
